@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+     <TextView 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="国内互联网公司融资额前20强(2012年至2015年6月)"
+         android:textSize="20sp"
+         
+         />
+
+     <com.zhangqi.percentagebar.PercentageBar
+      android:id="@+id/bargraph"
+      android:layout_width="match_parent"
+      android:layout_margin="5dp"
+      android:layout_height="wrap_content"
+      />
+
+  
+
+</LinearLayout>
